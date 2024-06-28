@@ -1,0 +1,55 @@
+.contenedorForm{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    color: var(--blanco);
+}
+
+.labelForm{
+    margin: .5rem 1rem;
+}
+
+.inputForm{
+    width: 60vw;
+    height: 2.5rem;
+    min-height: 2rem;
+    font-family: var(--font);
+    border-radius: 10px; 
+    border-color: var(--azul);
+    background-color: #03122f;
+    color: var(--blanco);
+    box-sizing: border-box;
+}
+
+/* Media Query para tabletas */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .inputForm{
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+    
+    .labelForm{
+        margin: 5px;
+    }
+
+    .inputForm{
+        height: 20px;
+        font-size: 12px;
+        min-height: 20px;
+    }
+
+}
+
+/* Media Query para PCs */
+@media screen and (min-width: 1024px) {
+    .labelForm{
+        margin-top: 15px;
+    }
+   
+    .inputForm{
+        width: 40vw;
+    }
+}

@@ -1,0 +1,129 @@
+.centrarform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.formulario{
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-radius: 15px;
+    margin: 20px 0;
+    background-color: #03122F;
+}
+
+.imgCerrar{
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.tituloForm{
+    width: 50vw;
+    color: var(--azul);
+    font-size: 24px;
+    padding-top: 2rem;
+}
+
+.contenedorElementos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.botones:hover{
+    border: var(--blanco);
+    color: var(--blanco);
+}
+
+/* Media Query para tabletas */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .formulario{
+        width: 70vw;
+        height: 70vh;
+    }
+
+    .imgCerrar{
+        top: 21vw;
+        right: 12vh;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+    .formulario{
+        height: 98vh;
+    }
+
+    .tituloForm{
+        width: 50vw;
+        font-size: 12px;
+    }
+
+    .imgCerrar{
+        top: 5vh;
+        right: 16vw;
+    }
+}
+
+/* Media Query para PCs */
+@media screen and (min-width: 1024px) {
+    .formulario{
+        width: 55vw;
+        height: 95vh;
+    }
+
+    .tituloForm{
+        padding-left: 10vw;
+    }
+
+    .imgCerrar{
+        top: 3vw;
+        right: 23vw;
+    }
+}
+
+@media screen and (min-width: 1024px) and (orientation: portrait) {
+    .formulario{
+        height: 65vh;
+    }
+
+    .imgCerrar{
+        top: 5vw;
+        right: 25vw;
+    }
+
+}

@@ -1,0 +1,45 @@
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+.labeltextarea{
+    color: var(--blanco);
+    font-family: var(--font);
+    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.textareaDescripcion{
+    width: 60vw;
+    border-radius: 10px;
+    background-color: #03122f;
+    color: var(--blanco);
+    min-height: 100px;
+    font-family: var(--font);
+    border-color: var(--azul);
+    align-self: flex-start;
+}
+
+/* Media Query para tabletas */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .textareaDescripcion{
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+    .textareaDescripcion{
+        font-size: 12px;
+        min-height: 24px;
+    }
+}
+
+/* Media Query para PCs */
+@media screen and (min-width: 1024px) {
+    .textareaDescripcion{
+        width: 40vw;
+    }
+}

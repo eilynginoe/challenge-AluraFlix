@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    margin-top: 4rem;
+    margin-bottom: 60px;
+    height: 90vh;
+    width: 90vw;
+}

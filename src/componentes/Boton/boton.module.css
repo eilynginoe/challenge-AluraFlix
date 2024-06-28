@@ -1,0 +1,35 @@
+.contenedorBoton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.boton{
+    width: 25vw;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+
+/* Media Query para tabletas */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    
+}
+
+/* Media Query para PCs */
+@media screen and (min-width: 1024px) {
+    .boton{
+        width: 15vw;
+        margin-top: 5vh;
+    }
+}

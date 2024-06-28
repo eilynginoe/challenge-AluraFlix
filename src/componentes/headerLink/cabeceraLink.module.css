@@ -1,0 +1,43 @@
+.Link {
+    color: var(--blanco); /* Uso de la variable --blanco */
+    text-decoration: none; /* Quitar subrayado de enlace */
+    font-family: var(--font);
+    font-weight: bold; /* Fuente en negritas */
+    font-size: 12px;
+    padding: 5px 5px;
+    border: 2px solid var(--blanco);
+    width: 25vw; /* Ancho fijo del enlace */
+    display: flex; /* Para que el ancho fijo funcione correctamente */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Centrar el contenido del enlace */
+    border-radius: 8px;
+    transition: color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves para color, borde y sombra */
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.Link:hover {
+    color: #2271d1; /* Cambio de color al pasar el mouse */
+    box-shadow: 0 0 10px rgba(34, 113, 209, 0.5); /* Sombra azul al pasar el mouse */
+    border-color: #2271d1;
+}
+
+/* Media Query para tabletas */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .Link {
+    font-size: 12px;
+    width: 20vw;
+    }
+    
+}
+
+/* Media Query para PCs */
+@media screen and (min-width: 1024px) {
+    .Link {
+        font-size: 20px;
+        width: 20vw; 
+        }
+    
+}

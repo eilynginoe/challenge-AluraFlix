@@ -1,0 +1,20 @@
+.div{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    color: var(--blanco);
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 3rem;
+    align-self: center; 
+
+}
+
+p{
+    color: var(--blanco);
+    font-family: var(--font);
+    align-self: center;
+    margin: 20px;
+}

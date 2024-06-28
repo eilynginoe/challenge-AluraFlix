@@ -1,0 +1,81 @@
+.capa {
+    width: 100%;
+    object-fit:fill;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.90);
+    transition: color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    box-sizing: border-box; 
+}
+
+.container {
+    width: 65vw;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 5px solid; /* El color del borde será aplicado dinámicamente */
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.container:hover .edicionCard {
+    opacity: 1;
+  }
+
+.edicionCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Fondo fijo para la parte inferior */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgba(0, 0, 0, 0.90);
+    border-top: none; /* Quitar el borde superior */
+}
+
+.borrar,
+.editar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Color de texto fijo para los botones de edición */
+    padding: 2px 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.borrar img,
+.editar img {
+    width: 2rem; /* Tamaño fijo de los íconos */
+    height: 2rem;
+}
+
+/* Media Query para tabletas */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .container{
+        width: auto; 
+    }
+
+}
+
+@media screen and (min-width: 660px) and (max-width: 1024px) and (orientation: landscape) {
+  .container{
+    width: 25vw;
+  } 
+}
+
+/* Media Query para PCs */
+@media screen and (min-width: 1024px) {
+
+    .container{
+        width: 25vw;
+      } 
+  
+}
+
+
+
+
+
+
+

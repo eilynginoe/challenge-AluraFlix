@@ -1,0 +1,101 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "titulo": "Técnicas para mejorar tu aprendizaje #AluraMás",
+            "categoria":"FORMACIÓN Y GESTIÓN",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/KSyqCUAr2CU/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/KSyqCUAr2CU"
+        },
+        {
+            "id": 2,
+            "titulo": "Desafíos y soluciones del trabajo remoto #AluraTips",
+            "categoria": "FORMACIÓN Y GESTIÓN",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/kIvnVfnmDyE/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/kIvnVfnmDyE"
+        },
+        {
+            "id": 3,
+            "titulo": "Equipo Front End #AluraMás",
+            "categoria": "FRONT END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/rpvrLaBQwgg/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/rpvrLaBQwgg"
+        },
+        {
+            "id": 4,
+            "titulo": "¿Cómo un desarrollador Front End utiliza el Figma? #AluraMás",
+            "categoria": "FRONT END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/UuAX5azcvDQ/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/UuAX5azcvDQ"
+        },
+        {
+            "id": 5,
+            "titulo": "¿Por qué estudiar Data Science?",
+            "categoria": "FRONT END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/7_UXo-aqAeM/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/7_UXo-aqAeM"
+        },
+        {
+            "id": 6,
+            "titulo": "¿Qué son las Soft Skills?",
+            "categoria": "FORMACIÓN Y GESTIÓN",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/vhwspfvI52k/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/vhwspfvI52k"
+        },
+        {
+            "id": 7,
+            "titulo": "Qué Significa Pensar Como Programador",
+            "categoria": "BACK END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/ov7vA5HFe6w/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/ov7vA5HFe6w"
+        },
+        {
+            "id": 8,
+            "titulo": "Simplificando el Back End #AluraTips",
+            "categoria": "BACK END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/XuSXJ9DUcvY/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/XuSXJ9DUcvY"
+        },
+        {
+            "id": 9,
+            "titulo": "Inmersión Java: Tus primeros pasos con Java",
+            "categoria": "BACK END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/C6ohBxRSVj4/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/C6ohBxRSVj4"
+        },
+        {
+            "id": 10,
+            "titulo": "Qué Significa Pensar Como Programador",
+            "categoria": "BACK END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/ov7vA5HFe6w/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/ov7vA5HFe6w"
+        },
+        {
+            "id": 11,
+            "titulo": "Simplificando el Back End #AluraTips",
+            "categoria": "BACK END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/XuSXJ9DUcvY/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/XuSXJ9DUcvY"
+        },
+        {
+            "id": 12,
+            "titulo": "Inmersión Java: Tus primeros pasos con Java",
+            "categoria": "BACK END",
+            "descripcion": "esta es una pequeña descripción",
+            "capa": "https://img.youtube.com/vi/C6ohBxRSVj4/mqdefault.jpg",
+            "link": "https://www.youtube.com/embed/C6ohBxRSVj4"
+        }
+    ]
+}
+
