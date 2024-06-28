@@ -27,7 +27,7 @@ Para abrir y ejecutar el proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/eilynginoe/challenge-aluraflix.git
 2. Instala las dependencias:
  npm install
 3. Inicia la aplicación:
