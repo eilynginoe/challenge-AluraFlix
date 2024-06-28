@@ -1,8 +1,41 @@
-# React + Vite
+<h1 align="center"> Aplicación de almacenamiento y reproducción de videos </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://via.placeholder.com/800x400.png?text=Portada+de+la+Aplicación" alt="Imagen de Portada">
+</p>
 
-Currently, two official plugins are available:
+## Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esta es una aplicación web que permite a los usuarios almacenar y reproducir videos. La aplicación cuenta con una página de inicio donde se pueden ver, editar y eliminar los videos almacenados, así como una página de formulario para agregar nuevos videos. El objetivo principal del proyecto es proporcionar una interfaz sencilla y eficaz para gestionar una colección de videos.
+
+<h4 align="center">
+:construction: Proyecto en construcción :construction:
+</h4>
+
+## :hammer: Funcionalidades del proyecto
+
+- `Visualización de videos`: Los usuarios pueden ver la lista de videos almacenados en la página de inicio.
+- `Edición de videos`: Los usuarios pueden editar la información de los videos existentes.
+- `Eliminación de videos`: Los usuarios pueden eliminar videos de la lista.
+- `Añadir nuevos videos`: Los usuarios pueden agregar nuevos videos a través de un formulario dedicado.
+
+## 📁 Acceso al proyecto
+
+Puedes acceder al proyecto desde el siguiente enlace: [Repositorio en GitHub](https://github.com/eilynginoe/challenge-aluraflix)
+
+## 🛠️ Abre y ejecuta el proyecto
+
+Para abrir y ejecutar el proyecto localmente, sigue estos pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+2. Instala las dependencias:
+ npm install
+3. Inicia la aplicación:
+ npm run dev
+4. Abre tu navegador y navega a http://localhost:3000
+
+## 🛠️ Tecnologías utilizadas
+- `React`
+- `Vite`
