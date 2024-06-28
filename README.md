@@ -1,8 +1,6 @@
 <h1 align="center"> Aplicación de almacenamiento y reproducción de videos </h1>
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Portada+de+la+Aplicación" alt="Imagen de Portada">
-</p>
+![BannerMainbanner](https://github.com/eilynginoe/challenge-aluraflix/assets/92010380/f7a9ba16-e6d4-4882-92eb-4dca4a3005df)
 
 ## Descripción del Proyecto
 
